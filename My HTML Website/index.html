@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My basic HTML Website</title>
+  </head>
+  <body>
+    <!-- first heading 1 top heading -->
+    <h1>Welcome on my HTML website</h1>
+
+    <!-- introduction paragraph -->
+    <p>This is my first HTML website</p>
+
+    <!-- heading 2 about my webpage -->
+    <h2>About Me</h2>
+    <p>I am learning how to create website using only HTML.</p>
+    <p>This is a simple paragraph explaining what my website is about.</p>
+
+    <!-- heading 3 for creating order and undorder list -->
+    <h3>My favourite things</h3>
+    <ul>
+      Reading
+      <br />
+      Travelling
+      <br />
+      Coding
+      <br />
+      Eating
+      <br />
+      cooking
+      <br />
+      wearing hijab
+    </ul>
+
+    <h4>Daily Routine</h4>
+    <ol>
+      Getup early morning
+      <br />
+      Perform Namaz
+      <br />
+      Recite Quran
+      <br />
+      Do Breakfast
+      <br />
+      Study Time
+      <br />
+    </ol>
+
+    <!-- add links called hyper links of other websites -->
+    <p>Visit my <a href="https://www.example.com">favorite website</a>.</p>
+
+    <!-- images for beautiful view -->
+    <h2>My favourite Image</h2>
+    <img src="path/to/image.jpg" alt="A description of the image" />
+
+    <!-- tables in HTML -->
+    <h2>My Schedule</h2>
+    <table border="1">
+      <tr>
+        <th>Day</th>
+        <th>Activity</th>
+      </tr>
+      <tr>
+        <td>Monday</td>
+        <td>Work</td>
+      </tr>
+      <tr>
+        <td>Tuesday</td>
+        <td>Study</td>
+      </tr>
+    </table>
+
+    <!-- when we want to add any file link s we use this <a> anchor tag for more links -->
+    <p><a href="about.html">About Me</a></p>
+    <p><a href="contact.html">Contact Me</a></p>
+
+    <!-- now we are learning about more tags and attributes -->
+
+    <!-- div and span tags -->
+    <!--div tag is used as a container to together allo f them in group  -->
+    <div>
+      <h2>Section Title</h2>
+      <p>This is a section of content</p>
+    </div>
+    <!-- span is inline element for styling and scripting -->
+    <p>This is <span>important</span> text.</p>
+
+    <!-- <header> and <footer>
+<header>: Represents the introductory content, typically 
+containing logos, navigation links, and headings. -->
+    <header>
+      <h1>My Website</h1>
+      <nav>
+        <a href="index.html">Home</a> | <a href="about.html">About</a> |
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <!-- <footer>: Represents the footer of a document or section,
+         typically containing information like copyright and links to terms of service. -->
+         <footer>
+            <p>&copy; 2024 My Website. All rights reserved.</p>
+        </footer>
+
+        <!-- <nav> -->
+            <!-- <nav>: Used to define a block of navigation links         -->
+                <nav>
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="contact.html">Contact</a>
+                </nav>
+
+<!-- <article>: Represents an independent piece of content that can stand alone, such as a blog post. -->
+    <article>
+        <h2>Blog Post Title</h2>
+        <p>This is a blog post.</p>
+    </article>
+
+    <!-- <section>: Used to define sections in a document, such as chapters or thematic groups of content. -->
+        <section>
+            <h2>Introduction</h2>
+            <p>This is the introduction to my website.</p>
+        </section>
+
+        <aside>
+<!-- <aside>: Represents content that is tangentially related to the main content, like a sidebar         -->
+    <aside>
+        <h3>Related Links</h3>
+        <ul>
+            <li><a href="link1.html">Link 1</a></li>
+            <li><a href="link2.html">Link 2</a></li>
+        </ul>
+    </aside>
+
+    <form>
+      <!-- <form>: Used to create a form for user input.           -->
+        <form action="/submit-form" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name"><br><br>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email"><br><br>
+          <input type="submit" value="Submit">
+      </form>
+
+      <!-- <input>: Used to create interactive controls in a web form, such as text fields, checkboxes, radio buttons, and buttons.       -->
+      <input type="text" name="username" placeholder="Enter your name">
+      <input type="checkbox" name="subscribe" checked> Subscribe to newsletter
+      <input type="radio" name="gender" value="male"> Male
+      <input type="radio" name="gender" value="female"> Female
+
+      <!-- <textarea>: Used to create a multi-line text input field. -->
+        <textarea name="message" rows="5" cols="30">Enter your message here...</textarea>
+
+        <button>
+          <!-- <button>: Used to create a clickable button.       -->
+            <button type="button">Click Me</button><br>
+
+            <!-- audio> and <video> -->
+              <!-- <audio>: Embeds audio content in a document. -->
+                <audio controls>
+                  <source src="audio-file.mp3" type="audio/mpeg">
+                  Your browser does not support the audio element.
+              </audio>
+
+              <!-- <video>: Embeds video content in a document. -->
+                <!-- frame> -->
+<!-- <iframe>: Embeds another HTML page within the current page. -->
+  <iframe src="https://www.example.com" width="600" height="400"></iframe>
+
+
+  <!-- Common HTML Attributes -->
+
+  <!-- id: Assigns a unique identifier to an element, which can be used to target it with CSS or
+    JavaScript (not needed in your case, but still good to know). -->
+    <h2 id="main-title">Main Title</h2>
+
+    <!-- class: Assigns a class name to an element, allowing it to be targeted with CSS or JavaScript. -->
+    <p class="intro-text">This is an introductory paragraph.</p>
+
+    <!-- title: Provides additional information about an element, which is displayed as a tooltip when the mouse hovers over the element. -->
+    <a href="https://www.example.com" title="Visit Example.com">Example</a>
+
+    <!-- alt: Used with <img> tags to provide alternative text if the image cannot be displayed. -->
+    <img src="path/to/image.jpg" alt="A description of the image">
+
+    <!-- target: Used with <a> tags to specify where to open the linked document. -->
+      <a href="https://www.example.com" target="_blank">Open in New Tab</a>
+
+      <!-- placeholder: Provides a hint inside a text input field, which disappears when the user starts typing. -->
+      <input type="text" name="username" placeholder="Enter your username">
+
+      <!-- readonly: Makes an input field read-only. -->
+      <input type="text" name="readonly-field" value="You can't change this" readonly>
+
+      <!-- disabled: Disables an input field, preventing user interaction. -->
+      <input type="text" name="disabled-field" value="This is disabled" disabled>
+
+      <!-- Here’s a more complex example that combines multiple tags and attributes: -->
+      <!DOCTYPE html>
+      <html lang="en">
+      <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>My Enhanced HTML Website</title>
+      </head>
+      <body>
+      
+          <header>
+              <h1 id="main-title">Welcome to My Enhanced Website</h1>
+              <nav>
+                  <a href="index.html">Home</a> |
+                  <a href="about.html" title="Learn more about us">About</a> |
+                  <a href="contact.html" target="_blank">Contact</a>
+              </nav>
+          </header>
+      
+          <section>
+              <h2>Introduction</h2>
+              <p class="intro-text">This is an introduction to my website. Here, you can learn about various topics.</p>
+          </section>
+      
+          <article>
+              <h2>My Blog Post</h2>
+              <p>This is a blog post about web development.</p>
+          </article>
+      
+          <aside>
+              <h3>Related Links</h3>
+              <ul>
+                  <li><a href="link1.html">Link 1</a></li>
+                  <li><a href="link2.html">Link 2</a></li>
+              </ul>
+          </aside>
+      
+          <footer>
+              <p>&copy; 2024 My Website. All rights reserved.</p>
+          </footer>      
+</body>
+</html>
